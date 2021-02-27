@@ -50,7 +50,7 @@ public class GitDemo {
         
         reverseNum = newNumber;
         
-        return reverseNum;
+        return newNumber;
     }
     
 }
