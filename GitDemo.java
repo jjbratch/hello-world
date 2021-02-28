@@ -1,12 +1,19 @@
 /*****
+ branch1
  * Jason Bratcher.
+
+ * Edit this line to have your name.
+main
  ******/
 public class GitDemo {
     
     private double previousNumber;
     
+ branch1
     private double reverseNum;
     
+
+ main
     public GitDemo() {
         previousNumber = 1;
     }
@@ -15,9 +22,13 @@ public class GitDemo {
      * This function should add 'num' to 'previousNumber' and return the sum.
     *****/
     public double addNumber(double num) {
+ branch1
         System.out.print("Add num to previousNUmber");
         num = num + previousNumber;
-        return 0;
+
+        System.out.print("Add num to previousNumber");
+ main
+        return num;
     }
     
     /*****
@@ -49,9 +60,16 @@ public class GitDemo {
             newNumber = newNumber * i;
         }
         
+ branch1
         reverseNum = newNumber;
         
         return newNumber;
     }
     
 }
+
+        return newNumber;
+    }
+    
+}
+main
